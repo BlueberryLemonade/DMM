@@ -14,13 +14,13 @@ public class Monster {
     private Long id;
 
     private String name;
-    private int strength;
+    private String strength;
 
     public String getName() {
         return name;
     }
 
-    public int getStrength() {
+    public String getStrength() {
         return strength;
     }
 
@@ -32,7 +32,7 @@ public class Monster {
         this.name = name;
     }
 
-    public void setStrength(int strength) {
+    public void setStrength(String strength) {
         this.strength = strength;
     }
 

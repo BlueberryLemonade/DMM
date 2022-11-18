@@ -1,3 +1,5 @@
+package org.runicacorn.dungeon;
+
 import org.runicacorn.dungeon.Monster;
 import org.runicacorn.dungeon.MonsterRepository;
 import org.springframework.http.ResponseEntity;
